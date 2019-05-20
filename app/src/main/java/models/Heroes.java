@@ -5,6 +5,11 @@ public class Heroes
     private String _id;
     private String name;
     private String desc;
+    private String image;
+
+    public String getImage() {
+        return image;
+    }
 
     public Heroes(String name, String desc) {
         this.name = name;
